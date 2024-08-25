@@ -9,4 +9,23 @@
     i{
         font-size: 3rem;
     }
+    #games{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+    }
+    .games-container{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .game{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.5rem 3rem;
+    }
 }
